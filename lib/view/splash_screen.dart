@@ -60,23 +60,23 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
 
           //Bottom Text and Image
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 20,),
-            child: Container(
-                child: Column(children: [
-                  Text(AppLocalizations.of(context)!.poweredBy,
-                      style: TextStyle(fontSize: sc.text(12),color: AppColors.defaultfont,fontFamily: pop)
-                    //GoogleFonts.londrinaSolid(
-                    //  color: myColors.text_se, fontSize: 20)
-                  ),
-                  Image(
-                    width: sc.width(250),
-                    image:AssetImage('assets/images/pharmapedia.png'),
-                  ),
-                ]
-                )
-            ),
-          ),
+          // Padding(
+          //   padding: const EdgeInsets.symmetric(vertical: 20,),
+          //   child: Container(
+          //       child: Column(children: [
+          //         Text(AppLocalizations.of(context)!.poweredBy,
+          //             style: TextStyle(fontSize: sc.text(12),color: AppColors.defaultfont,fontFamily: pop)
+          //           //GoogleFonts.londrinaSolid(
+          //           //  color: myColors.text_se, fontSize: 20)
+          //         ),
+          //         Image(
+          //           width: sc.width(250),
+          //           image:AssetImage('assets/images/pharmapedia.png'),
+          //         ),
+          //       ]
+          //       )
+          //   ),
+          // ),
 
         ],
       ),
